@@ -1,0 +1,14 @@
+[package]
+name = "listrop"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rust_lisp = "0.15.0"
+clap = "3.2.15"
+
+[dependencies.strop]
+git = "https://github.com/omarandlorraine/strop.git"
+branch = "breakapart"
