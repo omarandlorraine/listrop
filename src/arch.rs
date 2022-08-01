@@ -1,12 +1,3 @@
-
-
-
-
-
-
-
-
-
 use strop::machine::mos6502::Instruction6502;
 use strop::machine::mos6502::Mos6502;
 use strop::search::BasicBlock;
