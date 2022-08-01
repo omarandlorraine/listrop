@@ -10,7 +10,7 @@ pub fn load_file(env: Rc<RefCell<Env>>, contents: &str) -> Result<(), RuntimeErr
     use rust_lisp::interpreter::eval_block;
 
     let mut ast = Vec::new();
-    for item in parse(&contents) {
+    for item in parse(contents) {
         ast.push(item.unwrap());
     }
     eval_block(env, ast.into_iter()).unwrap();

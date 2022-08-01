@@ -16,8 +16,8 @@ use rust_lisp::model::RuntimeError;
 
 
 use rust_lisp::model::Env;
-fn stochastic_search_6502(env: Rc<RefCell<Env>>, argl: &[Value]) -> Result<Value, RuntimeError> {
-    return Ok(Value::NIL);
+fn stochastic_search_6502(_env: Rc<RefCell<Env>>, _argl: &[Value]) -> Result<Value, RuntimeError> {
+    Ok(Value::NIL)
 }
 
 fn main() {
